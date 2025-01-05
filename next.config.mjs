@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    basePath: "/website",
+};
 
 import withVideos from "next-videos";
 
